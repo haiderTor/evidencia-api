@@ -1,0 +1,35 @@
+# Dependencias
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Build y cache
+dist/
+build/
+.cache/
+.vite/
+
+# Configuración de editor
+.vscode/
+.idea/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Estado de pnpm
+.pnpm-workspace-state-v1.json
+frontend/package.json
+frontend/pnpm-lock.yaml
